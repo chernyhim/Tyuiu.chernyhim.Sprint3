@@ -10,6 +10,6 @@ internal class Program
         int startvalue = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Input stop value");
         int stopvalue = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Result" + ds.GetSumSeries(value, startvalue, stopvalue));
+        Console.WriteLine("Result" + ds.GetSumSeries(value, startvalue, stopvalue)); 
     }
 }
