@@ -19,7 +19,7 @@ namespace Tyuiu.chernyhim.Sprint3.Task7.V19.Test
             valueWait[1] = 16.08;
             valueWait[2] = 7.84;
             valueWait[3] = 4.58;
-            valueWait[4] = Math.Round(2.87983, 2);
+            valueWait[4] = 2.88;
             valueWait[5] = 0.75;
             valueWait[6] = -4.47;
             valueWait[7] = -9.46;
