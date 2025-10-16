@@ -15,17 +15,17 @@ namespace Tyuiu.chernyhim.Sprint3.Task7.V19.Test
             double[] valueWait;
             valueWait =new double[len];
 
-            valueWait[0] = 23.612;
-            valueWait[1] = 16.077;
-            valueWait[2] = 7.838;
-            valueWait[3] = 4.578;
-            valueWait[4] = Math.Round(2.87983, 3);
+            valueWait[0] = 23.61;
+            valueWait[1] = 16.08;
+            valueWait[2] = 7.84;
+            valueWait[3] = 4.58;
+            valueWait[4] = Math.Round(2.87983, 2);
             valueWait[5] = 0.75;
-            valueWait[6] = -4.474;
-            valueWait[7] = -9.461;
-            valueWait[8] = -7.414;
-            valueWait[9] = -6.162;
-            valueWait[10] = -7.294;
+            valueWait[6] = -4.47;
+            valueWait[7] = -9.46;
+            valueWait[8] = -7.41;
+            valueWait[9] = -6.16;
+            valueWait[10] = -7.29;
             CollectionAssert.AreEqual(ds.GetMassFunction(-5,5),valueWait);
         }
     }

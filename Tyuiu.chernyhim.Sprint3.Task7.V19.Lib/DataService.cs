@@ -13,7 +13,7 @@ namespace Tyuiu.chernyhim.Sprint3.Task7.V19.Lib
             for (int x =startValue; x <=stopValue; x++)
             {
                 y = (5 * x + 2.5) / (Math.Sin(x) - 2) + 2;
-                valueArray[count] = Math.Round(y,3);
+                valueArray[count] = Math.Round(y,2);
                 count++;
 
             }
